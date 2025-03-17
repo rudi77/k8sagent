@@ -1,0 +1,24 @@
+# Core dependencies
+kubernetes==29.0.0  # For kubectl operations
+chromadb==0.4.24   # Vector database for RAG
+openai==1.12.0     # For LLM interactions
+sentence-transformers==2.5.1  # For text embeddings
+fastapi==0.110.0   # For API endpoints
+uvicorn==0.27.1    # ASGI server
+pydantic==2.6.3    # Data validation
+python-dotenv==1.0.1  # Environment variable management
+smolagents==1.10.0  # Agent framework for ReAct
+
+# Notification integrations
+slack-sdk==3.27.1
+pymsteams==0.2.2
+
+# Testing
+pytest==8.0.2
+pytest-asyncio==0.23.5
+pytest-cov==4.1.0
+
+# Development
+black==24.2.0
+flake8==7.0.0
+isort==5.13.2 
